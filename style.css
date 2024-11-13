@@ -1,11 +1,54 @@
-.container{
-    position: relative;
-    text-align: center;
-    color: white;
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .Hero Text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.section{
+    display: flex;
+    width: 90%;
+    height: 400px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.two{
+    display: flex;
+    width: 90%;
+    height: 400px;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxonwater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sunnyclouds{
+    background-image: url(images/img14.jpg);
 }
