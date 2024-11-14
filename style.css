@@ -4,10 +4,7 @@
     justify-content: space-around;
 }
 .header{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
 }
 .Hero Text{
     position: absolute;
@@ -23,8 +20,51 @@
 .section{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+.turtle1{
+    background-color: lightgray;
+    margin-left: 5%;
+}
+.turtle2{
+    background-color: lightgray;
+    margin-left: 5%;
+}
+.turtle3{
+    background-color: lightgrey;
+    margin-left: 5%;
+}
+.Green{
+   background-color: green;
+   color: white;
+   border-style: none;
+}
+.Blue{
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
+.Red{
+    background-color: red;
+    color: white;
+    border-style: none;
+}
+.twoboxes{
+    display: flex;
+    height: 500px;
+}
+.twoboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.turtle4{
+    background-color: lightgray;
+    margin-left: 5%;
+}
+.turtle5{
+    background-color: lightgray;
+    margin-left: 5%;
 }
 .two{
     display: flex;
@@ -34,7 +74,7 @@
 }
 .two{
     display: flex;
-    width: 90%;
+    width: 1000%;
     height: 400px;
 }
 .fourth{
@@ -42,6 +82,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+.fourth{
+    display: flex;
+    width
+}
+.boxonwater{
+    display: flex;
+    height: 850px;
 }
 .boxonwater{
     display: flex;
